@@ -11,13 +11,8 @@ package ru.job4j.max;
 		 return first + second;
 	 }
  public int max(int first, int second, int third)
- {
-	 if (first>second && first>third) {
-		 return first;
-	 } else if (second>first && second>third) {
-		 return second;
-	 } else {
-         return third;
-	 }
- } 
- }
+ public int max(int first, int second)
+ int temp = this.max(first, second);
+ int temp = this.max(second, third);
+ int temp = this.max(first, third);
+ return temp;
