@@ -10,3 +10,14 @@ package ru.job4j.max;
 	 public int summation(int first, int second){
 		 return first + second;
 	 }
+ public int max(int first, int second, int third)
+ {
+	 if (first>second && first>third) {
+		 return first;
+	 } else if (second>first && second>third) {
+		 return second;
+	 } else {
+         return third;
+	 }
+ } 
+ }
